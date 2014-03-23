@@ -16,7 +16,7 @@
   "requireLeftStickedOperators": [","],
   "requireLineFeedAtFileEnd": true,
   "requireRightStickedOperators": [ "!" ],
-  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return"],
+  "requireSpaceAfterKeywords": ["if", "else", "for", "function", "while", "do", "switch", "return"],
   "requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!=="],
   "validateIndentation": 2,
   "validateLineBreaks": "LF",

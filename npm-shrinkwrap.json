@@ -552,6 +552,36 @@
         }
       }
     },
+    "grunt-jsonlint": {
+      "version": "1.0.4",
+      "from": "grunt-jsonlint@^1.0.4",
+      "dependencies": {
+        "jsonlint": {
+          "version": "1.6.0",
+          "from": "jsonlint@1.6.0",
+          "dependencies": {
+            "nomnom": {
+              "version": "1.6.2",
+              "from": "nomnom@>= 1.5.x",
+              "dependencies": {
+                "colors": {
+                  "version": "0.5.1",
+                  "from": "colors@0.5.x"
+                },
+                "underscore": {
+                  "version": "1.4.4",
+                  "from": "underscore@~1.4.4"
+                }
+              }
+            },
+            "JSV": {
+              "version": "4.0.2",
+              "from": "JSV@>= 4.0.x"
+            }
+          }
+        }
+      }
+    },
     "grunt-nsp-shrinkwrap": {
       "version": "0.0.3",
       "from": "grunt-nsp-shrinkwrap@0.0.3",
