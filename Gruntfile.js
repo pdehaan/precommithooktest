@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
   grunt.loadTasks('tasks');
 
-  grunt.registerTask('lint', ['validate-shrinkwrap', 'jshint', 'jscs']);
+  grunt.registerTask('lint', ['validate-shrinkwrap', 'jshint', 'jscs', 'jsonlint']);
 
   grunt.registerTask('default', ['lint']);
 };
