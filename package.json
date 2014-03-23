@@ -1,0 +1,32 @@
+{
+  "name": "precommithooktest",
+  "version": "0.1.0",
+  "description": "Testing precommit-hook module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "config": {
+    "precommit": {
+      "lint": false,
+      "validate": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pdehaan/precommithooktest.git"
+  },
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "license": "MPL 2.0",
+  "bugs": {
+    "url": "https://github.com/pdehaan/precommithooktest/issues"
+  },
+  "homepage": "https://github.com/pdehaan/precommithooktest",
+  "dependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "precommit-hook": "^0.3.10",
+    "grunt-jscs-checker": "^0.4.1"
+  }
+}

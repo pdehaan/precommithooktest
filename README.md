@@ -1,4 +1,3 @@
-precommithooktest
-=================
+# precommithooktest
 
-Testing precommit-hook module
+Testing precommit-hook module.
